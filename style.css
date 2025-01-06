@@ -208,7 +208,7 @@ body {
     /* adding navigation bar */
     .navbar {
       height: 60px;
-      width: 90vw;
+      width: 60vw;
       margin: 0 auto;
       margin-top: 0%;
       padding-left: 1em;
@@ -263,3 +263,9 @@ body {
       color: #777;
       transition-duration: 0.3s;
     }
+
+    /* .navbar ul li.login {
+      float: right;
+      padding: 6px 10px;
+      margin-right: 16px;
+  } */
