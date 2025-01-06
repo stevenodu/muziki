@@ -229,13 +229,21 @@ body {
     .navbar .logo {
       text-transform: uppercase;
       font-family: "Source Sans Pro", sans-serif;
-      font-weight: 300;
+      font-weight: bold;
       font-size: 16pt;
+      letter-spacing: 1.5px;
     }
     
     .navbar .logo a {
       text-decoration: none;
       color: #090909;
+    }
+
+    .logo a span.z {
+      display: inline-block;
+      transform: rotate(20deg); /* Tilts the letter Z slightly to the right */
+      letter-spacing: 3px;
+      font-weight: 500;
     }
     
     .navbar ul {
