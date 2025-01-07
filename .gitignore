@@ -1,4 +1,5 @@
+# Ignore Composer's vendor directory
+/vendor/
+
+# Ignore environment files
 .env
-vendor
-composer.json
-composer.lock
