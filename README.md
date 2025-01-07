@@ -19,16 +19,19 @@
 
 - This will create a `vendor` directory and update (or create) a `composer.json` file in your project.
 
+
 **Step 2:** ***Create the .env File***
 - Place the `.env` file directly inside your project root directory (`/var/www/html/myproject`).
 
 Example `.env` file:
 
+```
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=root12
+DB_NAME=music
+```
 
-`DB_HOST=localhost`
-`DB_USER=root`
-`DB_PASS=root12`
-`DB_NAME=music`
 
 **Step 3:** ***Use phpdotenv in Your Project***
 - In your PHP script where you connect to the database (e.g., config.php), load and use the environment variables:
@@ -49,6 +52,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ```
+
 
 **Step 4:** ***Ignore .env in Version Control***
 - Create or update .gitignore in the project root:
