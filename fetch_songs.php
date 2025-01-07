@@ -1,9 +1,23 @@
 <?php
-$servername = "localhost";
-$username = "myapp";
-$password = "Quest@2040";
-$dbname = "music";
+// Uncomment the 
+// $servername = "e.glocalhost";
+// $username = "dbusername";
+// $password = "dbpassword";
+// $dbname = "dbname";
 
+// This db connection uses the .env to hid the database credentials.
+// Kindly use this for prod. You can comment this part out and enable the block above if you're just testing.
+require __DIR__ . '/vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+$servername = $_ENV['DB_HOST'];
+$username = $_ENV['DB_USER'];
+$password = $_ENV['DB_PASS'];
+$dbname = $_ENV['DB_NAME'];
+
+
+// Attempt db connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
