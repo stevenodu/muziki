@@ -1,13 +1,13 @@
-## Muziki App
+## Muziki App 🎼
 - This is my first project of 2025. 
-- Shout to @shadman346 https://github.com/shadman346/music-player 
-- This is an improvement of his application with added database functionality
+- Shoutout to @shadman346 https://github.com/shadman346/music-player 
+- This is an improvement of his application with added database functionality. I'll keep adding more feature to it.
 - Import the database into your phpmyadmin.
-- Update the DB credential in the php file.
-- You can update the images and music file paths and sources to your liking e.g S3.
+- Update the DB credential in the php file or by following the instructions below to use .env file
+- You can update the images and music file paths and sources to your liking e.g S3. I have included a few songs for testing.
 
 
-# Using .env file to hide db credentials in php.
+# Using .env file to hide db credentials in php. 📑
 
 **Step 1:** ***Install phpdotenv***
 - Navigate to your project directory:
