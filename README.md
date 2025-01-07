@@ -6,7 +6,7 @@
 - Update the DB credential in the php file or by following the instructions below to use .env file
 - You can update the images and music file paths and sources to your liking e.g S3. I have included a few songs for testing.
 
-![alt text](https://github.com/stevenodu/muziki/images/muziki.png?raw=true)
+![alt text](https://github.com/stevenodu/muziki/blob/main/images/muziki.png?raw=true)
 
 # Using .env file to hide db credentials in php. 📑
 
