@@ -241,7 +241,7 @@ body {
 
     .logo a span.z {
       display: inline-block;
-      transform: rotate(20deg); /* Tilts the letter Z slightly to the right */
+      transform: rotate(20deg); 
       letter-spacing: 3px;
       font-weight: 500;
     }
@@ -272,8 +272,8 @@ body {
       transition-duration: 0.3s;
     }
 
-    /* .navbar ul li.login {
-      float: right;
-      padding: 6px 10px;
-      margin-right: 16px;
-  } */
+    .navbar ul li.login {
+      margin-left: auto;
+      padding-left: 35em;
+    }
+    
