@@ -1,5 +1,5 @@
 <?php
-// Uncomment the 
+// Uncomment this section and comment out the next .env section if you want to do a direct test with visible db credentials
 // $servername = "e.glocalhost";
 // $username = "dbusername";
 // $password = "dbpassword";
