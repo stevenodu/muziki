@@ -271,3 +271,7 @@ body {
       color: #777;
       transition-duration: 0.3s;
     }
+
+    .navbar ul li.login{
+      margin-left: auto;
+    }
