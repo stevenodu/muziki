@@ -241,7 +241,7 @@ body {
 
     .logo a span.z {
       display: inline-block;
-      transform: rotate(20deg); 
+      transform: rotate(20deg); /* Tilts the letter Z slightly to the right */
       letter-spacing: 3px;
       font-weight: 500;
     }
@@ -271,35 +271,3 @@ body {
       color: #777;
       transition-duration: 0.3s;
     }
-
-    .navbar ul li.login {
-      margin-left: auto;
-      padding-left: 35em;
-    }
-    
-
-/* Responsive for smaller screens (tablets and mobile) */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    align-items: flex-start; /* Align items to the left */
-    height: auto; /* Allow height to adjust dynamically */
-    width: 90%; /* Reduce width for better fit */
-  }
-
-  .navbar ul {
-    flex-direction: column; /* Stack menu items vertically */
-    gap: 0.5em; /* Adjust space between items */
-    padding: 1em 0;
-  }
-
-  .navbar ul li.login {
-    margin-left: 0; /* Reset margin on smaller screens */
-    padding-left: 0;
-    align-self: flex-end; /* Align "Login" to the right */
-  }
-
-  .navbar .logo {
-    margin-bottom: 1em; /* Add spacing between logo and menu */
-  }
-}
