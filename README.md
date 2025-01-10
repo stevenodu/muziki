@@ -1,6 +1,6 @@
 ## Muziki App 🎼
 - This is my first project of 2025. 
-- Shoutout to @shadman346 https://github.com/shadman346/music-player 
+- Shoutout to @shadman346 https://github.com/shadman346/music-player and ![Codewith Curious](https://codewithcurious.com/projects/music-player-with-html-css-js/#:~:text=The%20Music%20Player%20web%20application,and%20navigate%20through%20the%20playlist)
 - This is an improvement of his application with added database functionality. I'll keep adding more feature to it.
 - Import the database into your phpmyadmin.
 - Update the DB credential in the php file or by following the instructions below to use .env file
