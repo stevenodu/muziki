@@ -20,7 +20,7 @@ let isPlaying = false;
 let isRandom = false;
 let updateTimer;
 
-// Fetch and load songs from the database.
+// Fetch and load songs from the database. Disable and enable line 34 if you need to use a constant list
 let music_list = [];
 
 fetch('fetch_songs.php')
